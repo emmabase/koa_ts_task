@@ -3,7 +3,7 @@ import bodyParser from "koa-bodyparser";
 import cors from "koa2-cors";
 import logger from "koa-logger";
 import apiRouter from "./routes/apiRoutes";
-import { config } from "../config";
+import { config } from "./configurations/config";
 
 const app = new Koa();
 const PORT = config.port;

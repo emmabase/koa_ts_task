@@ -1,6 +1,6 @@
 import server from "../../src/server";
 import request from "supertest";
-import data from "../../src/data";
+import data from "../../src/model/data";
 
 afterEach(done => {
   server.close();

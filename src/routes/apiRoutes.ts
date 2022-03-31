@@ -1,5 +1,5 @@
 import Router from "koa-router";
-import data from "../data";
+import data from "../model/data";
 const apiRouter = new Router();
 
 apiRouter.get("/", async ctx => {
