@@ -1,9 +1,9 @@
-interface itemConfiguration {
+interface ItemConfiguration {
   user: string;
   amount: number;
 }
 
-const items: itemConfiguration[] = [
+const items: ItemConfiguration[] = [
   {
     user: "test1",
     amount: 434

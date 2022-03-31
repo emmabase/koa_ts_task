@@ -1,7 +1,7 @@
-interface portConfiguration {
+interface PortConfiguration {
   port: string;
 }
 
-export const config: portConfiguration = {
+export const config: PortConfiguration = {
   port: process.env.PORT || "7634"
 };
