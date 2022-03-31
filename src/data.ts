@@ -1,10 +1,15 @@
-const items = [
+interface MyItem {
+  user: string;
+  amount: number;
+}
+
+const items: MyItem[] = [
   {
-    user1: "test",
+    user: "test1",
     amount: 434
   },
   {
-    user2: "test",
+    user: "test2",
     amount: 465
   }
 ];
